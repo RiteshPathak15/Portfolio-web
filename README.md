@@ -26,7 +26,7 @@ This is a **Portfolio Web Application** built using **React.js** and styled with
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/RiteshPathak15/Portfolio-web.git
 
 # 2. Navigate to the project directory
 cd Portfolio-web
