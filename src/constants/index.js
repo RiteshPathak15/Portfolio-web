@@ -205,7 +205,7 @@ const projects = [
     alt: "Inventory Management",
 
     source_code_link: "https://github.com/RiteshPathak15/Inventory-Management-System--MERN-Stack",
-    live_link: "https://inventory-management-system-umber-one.vercel.app/login",
+    // live_link: "https://inventory-management-system-umber-one.vercel.app/login",
     category: "MERN Stack",
   },
   {
@@ -229,9 +229,11 @@ const projects = [
     ],
     image: '/assets/feedback.png',
     source_code_link: "https://github.com/RiteshPathak15/Feedback-Platform",
-    live_link: "https://feedback-platform.onrender.com/",
+    // live_link: "https://feedback-platform.onrender.com/",
     category: "MERN Stack",
    },
+
+
 ];
 
 export {
