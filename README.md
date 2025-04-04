@@ -1,7 +1,3 @@
-Here’s a clean and properly formatted version of your **Portfolio Web Application** README that you can directly use in your GitHub repository:
-
----
-
 # 🌐 Portfolio Web Application
 
 This is a **Portfolio Web Application** built using **React.js** and styled with **Tailwind CSS**. It showcases various projects, skills, and experiences in an interactive and visually appealing manner.
