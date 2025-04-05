@@ -67,8 +67,8 @@ const Contact = () => {
         <div>
           <a
             target="_blank"
-            rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1L1mVzD8cU6lc1yZZkZJ96Ej3IWRaljuW/view?usp=drivesdk"
+          
+             href="/Ritesh_Pathak_DataResume.pdf"
           >
             <Button variant="outlined" endIcon={<ArrowOutward />}>
               Resume
