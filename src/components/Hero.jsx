@@ -31,8 +31,8 @@ const Hero = () => {
           </motion.div>
           <div className="mt-5 flex gap-4">
             <a
-              href="/rit resume.pdf"
-              download="rit resume.pdf"
+              href="/Ritesh_Pathak_DataResume.pdf"
+              download="Ritesh resume.pdf"
               className="relative inline-flex items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-purple-500 to-indigo-500 px-8 py-3 font-semibold text-white shadow-lg transition-all duration-300 ease-in-out hover:scale-105 hover:from-indigo-500 hover:to-purple-500"
             >
               <span className="relative z-10">📄 Download Resume</span>
