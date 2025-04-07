@@ -152,6 +152,7 @@ const experiences = [
 ];
 
 const projects = [
+  // Data Analyst Projects
   {
     name: "Powerbi dashboard of Financial-Data",
     description:
@@ -178,6 +179,68 @@ const projects = [
     category: "Data Analyst",
   },
   
+  {
+    name: "Data Visualization Cheat Sheet & Notebooks",
+    description:
+      "Developed a comprehensive data visualization cheat sheet and Jupyter notebooks using Matplotlib, Seaborn, and Plotly.Created interactive and static visualizations, including heatmaps, scatter plots, 3D plots, and statistical visualizations.",
+      tags: [
+        {
+          name: "Jupyter Notebook",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Matplotlib",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Seaborn",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Plotly",
+          color: "blue-text-gradient",
+        },
+      ],
+    image:
+      "/assets/dataVisualization.png",
+    alt: "Data Visualization Cheat Sheet",
+    source_code_link: "https://github.com/RiteshPathak15/Data-Visualization-cheat-sheet",
+    // live_link: "https://app.powerbi.com/links/MhNUfIfkxN?ctid=aa74b0a8-dc31-4e56-b78a-68531b73a97b&pbi_source=linkShare",
+    category: "Data Analyst",
+  },
+  
+  {
+    name: "Insights into Olympic Athletes and Data Science Salaries",
+    description:
+      "A dual visualization project analyzing athlete performance and data science salaries. Includes interactive Jupyter Notebooks for exploring Olympic athlete data and global data science salary trends. Built with Python, Pandas, Matplotlib, and Seaborn for data analysis and visualization",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "DataStorytelling",
+          color: "green-text-gradient",
+        },
+        {
+          name: "DataVisualization ",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Pandas",
+          color: "blue-text-gradient",
+        },
+      ],
+    image:
+      "/assets/datavis.png",
+    alt: "Data Visualization of athletes and DS salaries",
+    source_code_link: "https://github.com/RiteshPathak15/Data-Visualization-cheat-sheet",
+    // live_link: "https://app.powerbi.com/links/MhNUfIfkxN?ctid=aa74b0a8-dc31-4e56-b78a-68531b73a97b&pbi_source=linkShare",
+    category: "Data Analyst",
+  },
+  
+
+  // Web Development Projects
   {
     name: "Inventory Management System",
     description:
