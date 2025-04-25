@@ -178,6 +178,37 @@ const projects = [
     live_link: "https://app.powerbi.com/links/MhNUfIfkxN?ctid=aa74b0a8-dc31-4e56-b78a-68531b73a97b&pbi_source=linkShare",
     category: "Data Analyst",
   },
+
+  {
+    name: "Netflix movie data analysis using Python",
+    description:
+      "This project analyzes Netflix movie data using Python. It involves data cleaning, transformation, and visualization to uncover insights such as the most popular genres, movies with the highest ratings, and trends in movie releases over the years. The analysis is performed using libraries like Pandas, Matplotlib, and Seaborn.",
+      tags: [
+        {
+          name: "Jupyter Notebook",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Matplotlib",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Seaborn",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Pandas",
+          color: "blue-text-gradient",
+        },
+      ],
+    image:
+      "/assets/Netflix.jpeg",
+    alt: "Netflix movie data analysis",
+    source_code_link: "https://github.com/RiteshPathak15/Netflix-movie-data-analysis-using-Python.git",
+    // live_link: "https://app.powerbi.com/links/MhNUfIfkxN?ctid=aa74b0a8-dc31-4e56-b78a-68531b73a97b&pbi_source=linkShare",
+    category: "Data Analyst",
+  },
+  
   
   {
     name: "Data Visualization Cheat Sheet & Notebooks",
