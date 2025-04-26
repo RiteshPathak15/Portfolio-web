@@ -176,7 +176,7 @@ const projects = [
     alt: "E-Commerce",
     source_code_link: "https://github.com/RiteshPathak15/Powerbi-dashboard-of-Financial-Data",
     live_link: "https://app.powerbi.com/links/MhNUfIfkxN?ctid=aa74b0a8-dc31-4e56-b78a-68531b73a97b&pbi_source=linkShare",
-    category: "Data Analyst",
+    category: "Power BI",
   },
 
   {
@@ -206,7 +206,7 @@ const projects = [
     alt: "Netflix movie data analysis",
     source_code_link: "https://github.com/RiteshPathak15/Netflix-movie-data-analysis-using-Python.git",
     // live_link: "https://app.powerbi.com/links/MhNUfIfkxN?ctid=aa74b0a8-dc31-4e56-b78a-68531b73a97b&pbi_source=linkShare",
-    category: "Data Analyst",
+    category: "Python",
   },
   
   
@@ -237,7 +237,7 @@ const projects = [
     alt: "Data Visualization Cheat Sheet",
     source_code_link: "https://github.com/RiteshPathak15/Data-Visualization-cheat-sheet",
     // live_link: "https://app.powerbi.com/links/MhNUfIfkxN?ctid=aa74b0a8-dc31-4e56-b78a-68531b73a97b&pbi_source=linkShare",
-    category: "Data Analyst",
+    category: "Python",
   },
   
   {
@@ -267,7 +267,7 @@ const projects = [
     alt: "Data Visualization of athletes and DS salaries",
     source_code_link: "https://github.com/RiteshPathak15/Data-Visualization-cheat-sheet",
     // live_link: "https://app.powerbi.com/links/MhNUfIfkxN?ctid=aa74b0a8-dc31-4e56-b78a-68531b73a97b&pbi_source=linkShare",
-    category: "Data Analyst",
+    category: "Python",
   },
   
 

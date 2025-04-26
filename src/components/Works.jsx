@@ -67,11 +67,15 @@ const ProjectCard = ({
 
 const Works = () => {
   // Separate projects into categories
-  const dataAnalystProjects = projects.filter(
-    (project) => project.category === "Data Analyst"
+  const powerBIProjects = projects.filter(
+    (project) => project.category === "Power BI",
+  );
+  const sqlProjects = projects.filter((project) => project.category === "SQL");
+  const pythonProjects = projects.filter(
+    (project) => project.category === "Python",
   );
   const mernStackProjects = projects.filter(
-    (project) => project.category === "MERN Stack"
+    (project) => project.category === "MERN Stack",
   );
 
   return (
@@ -94,9 +98,9 @@ const Works = () => {
         </motion.p>
       </div>
 
-      {/* Data Analyst Projects */}
+      {/* Power BI Projects */}
       <div className="mt-10">
-        <h3 className="text-[20px] font-bold text-white">Data Analyst Projects</h3>
+        <h3 className="text-[20px] font-bold text-white">Power BI Projects</h3>
         <Swiper
           modules={[Navigation, Pagination]}
           navigation
@@ -109,7 +113,53 @@ const Works = () => {
             1024: { slidesPerView: 3 },
           }}
         >
-          {dataAnalystProjects.map((project, index) => (
+          {powerBIProjects.map((project, index) => (
+            <SwiperSlide key={index}>
+              <ProjectCard {...project} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+
+      {/* SQL Projects */}
+      <div className="mt-10">
+        <h3 className="text-[20px] font-bold text-white">SQL Projects</h3>
+        <Swiper
+          modules={[Navigation, Pagination]}
+          navigation
+          pagination={{ clickable: true }}
+          spaceBetween={30}
+          slidesPerView={1}
+          breakpoints={{
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+        >
+          {sqlProjects.map((project, index) => (
+            <SwiperSlide key={index}>
+              <ProjectCard {...project} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+
+      {/* Python Projects */}
+      <div className="mt-10">
+        <h3 className="text-[20px] font-bold text-white">Python Projects</h3>
+        <Swiper
+          modules={[Navigation, Pagination]}
+          navigation
+          pagination={{ clickable: true }}
+          spaceBetween={30}
+          slidesPerView={1}
+          breakpoints={{
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+        >
+          {pythonProjects.map((project, index) => (
             <SwiperSlide key={index}>
               <ProjectCard {...project} />
             </SwiperSlide>
@@ -119,7 +169,9 @@ const Works = () => {
 
       {/* MERN Stack Projects */}
       <div className="mt-10">
-        <h3 className="text-[20px] font-bold text-white">MERN Stack Projects</h3>
+        <h3 className="text-[20px] font-bold text-white">
+          MERN Stack Projects
+        </h3>
         <Swiper
           modules={[Navigation, Pagination]}
           navigation
